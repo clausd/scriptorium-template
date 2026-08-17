@@ -1,0 +1,24 @@
+[project]
+name = "scriptorium"
+version = "0.1.0"
+description = "Code lab template for an aedificium learning notebook"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "ipykernel",  # so notebooks can use this venv as a kernel
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scriptorium"]
+
+[tool.ruff]
+line-length = 100

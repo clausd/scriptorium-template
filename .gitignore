@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data & model artifacts — keep these OUT of git (use a download script)
+data/
+datasets/
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+wandb/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
