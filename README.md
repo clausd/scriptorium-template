@@ -2,7 +2,7 @@
 
 Python worked examples, models, and notebooks that produce figures and
 demos for the notes kept in the sibling
-[**aedificium**](https://github.com/YOU/aedificium) notebook. The
+[**aedificium**](https://github.com/clausd/aedificium) notebook. The
 prose, lexicon, and PDFs live over there; the *code* that produces
 figures for them lives here.
 
@@ -40,14 +40,14 @@ Three connections:
 - [uv](https://github.com/astral-sh/uv) recommended (`brew install uv`),
   or plain `venv` + `pip`.
 - The sibling aedificium checkout — use
-  [aedificium-template](https://github.com/YOU/aedificium-template) if
+  [aedificium-template](https://github.com/clausd/aedificium-template) if
   you don't have one.
 
 ## Setup
 
 ```bash
 # Fork on GitHub first, then:
-git clone git@github.com:YOU/scriptorium.git
+git clone git@github.com:clausd/scriptorium.git
 cd scriptorium
 uv venv && uv sync
 # or: python -m venv .venv && . .venv/bin/activate && pip install -e .
@@ -104,7 +104,7 @@ data/                   datasets (gitignored)
 ## GitHub setup
 
 ```bash
-git remote set-url origin git@github.com:YOU/scriptorium.git
+git remote set-url origin git@github.com:clausd/scriptorium.git
 git push -u origin main
 ```
 
@@ -120,4 +120,4 @@ MIT. Adapt freely.
 
 Original concept and implementation by
 [Claus Dahl](https://github.com/clausd). Sibling of
-[aedificium](https://github.com/YOU/aedificium).
+[aedificium](https://github.com/clausd/aedificium).
