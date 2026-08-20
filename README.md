@@ -1,10 +1,10 @@
-# scriptorium — the code lab beneath aedificium
+# Sriptorium - code exploratorium for the Aedificium knowledge library
 
 Python worked examples, models, and notebooks that produce figures and
 demos for the notes kept in the sibling
-[**aedificium**](https://github.com/clausd/aedificium) notebook. The
-prose, lexicon, and PDFs live over there; the *code* that produces
-figures for them lives here.
+[**aedificium**](https://github.com/clausd/aedificium-template) notebook. The
+prose, lexicon, and PDFs live over there; the *code* that explores ideas or produces
+figures for notes lives here.
 
 This is the **open-source template**. Fork it, clone your fork next to
 your aedificium checkout, and start writing.
@@ -36,7 +36,7 @@ Three connections:
 
 ## Prerequisites
 
-- Python ≥ 3.10.
+- Python ≥ 3.10. or newer
 - [uv](https://github.com/astral-sh/uv) recommended (`brew install uv`),
   or plain `venv` + `pip`.
 - The sibling aedificium checkout — use
@@ -108,10 +108,6 @@ git remote set-url origin git@github.com:clausd/scriptorium.git
 git push -u origin main
 ```
 
-No LFS needed for a pure-Python code repo. If you start committing
-model checkpoints, gitignore them and use `download.py` scripts to
-regenerate.
-
 ## License
 
 MIT. Adapt freely.
@@ -120,4 +116,4 @@ MIT. Adapt freely.
 
 Original concept and implementation by
 [Claus Dahl](https://github.com/clausd). Sibling of
-[aedificium](https://github.com/clausd/aedificium).
+[aedificium](https://github.com/clausd/aedificium-template).
