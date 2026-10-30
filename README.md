@@ -1,4 +1,6 @@
-# Sriptorium - code exploratorium for the Aedificium knowledge library
+<img src="favicon.svg" alt="" width="64" align="right">
+
+# Scriptorium - code exploratorium for the Aedificium knowledge library
 
 Python worked examples, models, and notebooks that produce figures and
 demos for the notes kept in the sibling
